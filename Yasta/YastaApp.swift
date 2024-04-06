@@ -10,6 +10,7 @@ import SwiftData
 
 @main
 struct YastaApp: App {
+    @State private var stepTrackerViewModel = StepTrackerViewModel()
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,

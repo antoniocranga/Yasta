@@ -15,6 +15,9 @@
 		9FA8820F2BC1508600DAB3D3 /* YastaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA8820E2BC1508600DAB3D3 /* YastaTests.swift */; };
 		9FA882192BC1508600DAB3D3 /* YastaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA882182BC1508600DAB3D3 /* YastaUITests.swift */; };
 		9FA8821B2BC1508600DAB3D3 /* YastaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA8821A2BC1508600DAB3D3 /* YastaUITestsLaunchTests.swift */; };
+		9FA8822C2BC1562C00DAB3D3 /* StepTrackerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA8822B2BC1562C00DAB3D3 /* StepTrackerRepository.swift */; };
+		9FA8822E2BC1571700DAB3D3 /* StepTrackerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA8822D2BC1571700DAB3D3 /* StepTrackerViewModel.swift */; };
+		9FA882302BC15AFF00DAB3D3 /* StepTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA8822F2BC15AFF00DAB3D3 /* StepTrackerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		9FA882142BC1508600DAB3D3 /* YastaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YastaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FA882182BC1508600DAB3D3 /* YastaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YastaUITests.swift; sourceTree = "<group>"; };
 		9FA8821A2BC1508600DAB3D3 /* YastaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YastaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9FA8822B2BC1562C00DAB3D3 /* StepTrackerRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepTrackerRepository.swift; sourceTree = "<group>"; };
+		9FA8822D2BC1571700DAB3D3 /* StepTrackerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepTrackerViewModel.swift; sourceTree = "<group>"; };
+		9FA8822F2BC15AFF00DAB3D3 /* StepTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepTrackerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,11 @@
 		9FA881FA2BC1508400DAB3D3 /* Yasta */ = {
 			isa = PBXGroup;
 			children = (
+				9FA882312BC1619B00DAB3D3 /* Utils */,
+				9FA8822A2BC1561B00DAB3D3 /* Repositories */,
+				9FA882292BC154F400DAB3D3 /* Views */,
+				9FA882282BC154E800DAB3D3 /* ViewModels */,
+				9FA882272BC1549300DAB3D3 /* Models */,
 				9FA881FB2BC1508400DAB3D3 /* YastaApp.swift */,
 				9FA881FD2BC1508400DAB3D3 /* ContentView.swift */,
 				9FA881FF2BC1508400DAB3D3 /* Item.swift */,
@@ -128,6 +139,44 @@
 				9FA8821A2BC1508600DAB3D3 /* YastaUITestsLaunchTests.swift */,
 			);
 			path = YastaUITests;
+			sourceTree = "<group>";
+		};
+		9FA882272BC1549300DAB3D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9FA882282BC154E800DAB3D3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9FA8822D2BC1571700DAB3D3 /* StepTrackerViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9FA882292BC154F400DAB3D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9FA8822F2BC15AFF00DAB3D3 /* StepTrackerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9FA8822A2BC1561B00DAB3D3 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				9FA8822B2BC1562C00DAB3D3 /* StepTrackerRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		9FA882312BC1619B00DAB3D3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,9 +309,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FA8822E2BC1571700DAB3D3 /* StepTrackerViewModel.swift in Sources */,
 				9FA881FE2BC1508400DAB3D3 /* ContentView.swift in Sources */,
 				9FA882002BC1508400DAB3D3 /* Item.swift in Sources */,
+				9FA8822C2BC1562C00DAB3D3 /* StepTrackerRepository.swift in Sources */,
 				9FA881FC2BC1508400DAB3D3 /* YastaApp.swift in Sources */,
+				9FA882302BC15AFF00DAB3D3 /* StepTrackerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,8 +478,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Yasta/Preview Content\"";
+				DEVELOPMENT_TEAM = A8623GBZ82;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need to access health data to track steps.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,8 +508,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Yasta/Preview Content\"";
+				DEVELOPMENT_TEAM = A8623GBZ82;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need to access health data to track steps.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
