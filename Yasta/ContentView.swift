@@ -5,23 +5,24 @@
 //  Created by Antonio Cranga on 06.04.2024.
 //
 
-import SwiftUI
 import SwiftData
+import SwiftUI
 
 struct ContentView: View {
+    @State private var stepTrackerViewModel = StepTrackerViewModel()
     var body: some View {
         TabView {
-            StepTrackerView().tabItem {
-                Label ("Activity", systemImage: "figure.walk")
+            MetricsTrackerView(viewModel: stepTrackerViewModel).tabItem {
+                Label("Activity", systemImage: "figure.walk")
             }
-            StepTrackerView().tabItem {
-                Label ("Statistics", systemImage: "chart.pie")
+            StatisticsView().tabItem {
+                Label("Statistics", systemImage: "chart.pie")
             }
-            StepTrackerView().tabItem {
-                Label ("Map tracker", systemImage: "map")
+            MapTrackerView().tabItem {
+                Label("Map tracker", systemImage: "map")
             }
-            StepTrackerView().tabItem {
-                Label ("Settings", systemImage: "gearshape")
+            SettingsView().tabItem {
+                Label("Settings", systemImage: "gearshape")
             }
         }.background(.ultraThinMaterial)
     }

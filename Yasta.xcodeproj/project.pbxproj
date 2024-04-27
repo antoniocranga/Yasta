@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F07D28B2BDD2D3300F658AD /* CaloriesMetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F07D28A2BDD2D3300F658AD /* CaloriesMetricsView.swift */; };
+		9F07D28D2BDD2D4200F658AD /* CaloriesMetricsPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F07D28C2BDD2D4200F658AD /* CaloriesMetricsPreview.swift */; };
+		9F07D2922BDD304200F658AD /* SpeedMetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F07D2912BDD304200F658AD /* SpeedMetricsView.swift */; };
+		9F07D2942BDD304E00F658AD /* SpeedMetricsPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F07D2932BDD304E00F658AD /* SpeedMetricsPreview.swift */; };
+		9F07D2972BDD341400F658AD /* DistanceMetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F07D2962BDD341400F658AD /* DistanceMetricsView.swift */; };
+		9F07D2992BDD341E00F658AD /* DistanceMetricsPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F07D2982BDD341E00F658AD /* DistanceMetricsPreview.swift */; };
 		9FA881FC2BC1508400DAB3D3 /* YastaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA881FB2BC1508400DAB3D3 /* YastaApp.swift */; };
 		9FA881FE2BC1508400DAB3D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA881FD2BC1508400DAB3D3 /* ContentView.swift */; };
 		9FA882002BC1508400DAB3D3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA881FF2BC1508400DAB3D3 /* Item.swift */; };
@@ -17,7 +23,30 @@
 		9FA8821B2BC1508600DAB3D3 /* YastaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA8821A2BC1508600DAB3D3 /* YastaUITestsLaunchTests.swift */; };
 		9FA8822C2BC1562C00DAB3D3 /* StepTrackerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA8822B2BC1562C00DAB3D3 /* StepTrackerRepository.swift */; };
 		9FA8822E2BC1571700DAB3D3 /* StepTrackerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA8822D2BC1571700DAB3D3 /* StepTrackerViewModel.swift */; };
-		9FA882302BC15AFF00DAB3D3 /* StepTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA8822F2BC15AFF00DAB3D3 /* StepTrackerView.swift */; };
+		9FA882302BC15AFF00DAB3D3 /* MetricsTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA8822F2BC15AFF00DAB3D3 /* MetricsTrackerView.swift */; };
+		9FB809582BCC676A007D34E0 /* StepsMetricsPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB809572BCC676A007D34E0 /* StepsMetricsPreview.swift */; };
+		9FB8095A2BCC6A15007D34E0 /* StepsMetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB809592BCC6A15007D34E0 /* StepsMetricsView.swift */; };
+		9FB8095F2BCEC590007D34E0 /* Interval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB8095E2BCEC590007D34E0 /* Interval.swift */; };
+		9FB809612BCECB71007D34E0 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB809602BCECB71007D34E0 /* Globals.swift */; };
+		9FCFA6FE2BC1CF5F00551061 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCFA6FD2BC1CF5F00551061 /* Errors.swift */; };
+		9FCFA7022BC1D75600551061 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCFA7012BC1D75600551061 /* CircularProgressView.swift */; };
+		9FCFA7042BC1D9F500551061 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCFA7032BC1D9F500551061 /* StatisticsView.swift */; };
+		9FCFA7062BC1D9FD00551061 /* MapTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCFA7052BC1D9FD00551061 /* MapTrackerView.swift */; };
+		9FCFA7082BC1DA0300551061 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCFA7072BC1DA0300551061 /* SettingsView.swift */; };
+		9FCFA70C2BC1E01E00551061 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCFA70B2BC1E01E00551061 /* Extensions.swift */; };
+		9FCFA70E2BC1E52400551061 /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCFA70D2BC1E52400551061 /* LocalStorage.swift */; };
+		9FCFA7132BC1EA1E00551061 /* StepTrackerViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCFA7122BC1EA1E00551061 /* StepTrackerViewModelTests.swift */; };
+		9FCFA7172BC1EC5F00551061 /* MockStepTrackerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCFA7102BC1E8BD00551061 /* MockStepTrackerRepository.swift */; };
+		9FCFA7192BC1F10A00551061 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCFA7182BC1F10A00551061 /* Activity.swift */; };
+		9FCFA71E2BC80FC800551061 /* Measure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCFA71D2BC80FC800551061 /* Measure.swift */; };
+		9FCFA7202BC8113C00551061 /* WorkoutType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCFA71F2BC8113C00551061 /* WorkoutType.swift */; };
+		9FCFA7222BC8119300551061 /* Calorie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCFA7212BC8119300551061 /* Calorie.swift */; };
+		9FCFA7252BC811CA00551061 /* StepTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCFA7242BC811CA00551061 /* StepTracker.swift */; };
+		9FCFA7272BC811D500551061 /* Metric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCFA7262BC811D500551061 /* Metric.swift */; };
+		9FCFA7292BC8121000551061 /* Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCFA7282BC8121000551061 /* Distance.swift */; };
+		9FCFA72B2BC8124D00551061 /* Speed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCFA72A2BC8124D00551061 /* Speed.swift */; };
+		9FCFA72D2BC8126200551061 /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCFA72C2BC8126200551061 /* Step.swift */; };
+		9FCFA72F2BC8127600551061 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCFA72E2BC8127600551061 /* Workout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +67,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F07D28A2BDD2D3300F658AD /* CaloriesMetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesMetricsView.swift; sourceTree = "<group>"; };
+		9F07D28C2BDD2D4200F658AD /* CaloriesMetricsPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesMetricsPreview.swift; sourceTree = "<group>"; };
+		9F07D2912BDD304200F658AD /* SpeedMetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedMetricsView.swift; sourceTree = "<group>"; };
+		9F07D2932BDD304E00F658AD /* SpeedMetricsPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedMetricsPreview.swift; sourceTree = "<group>"; };
+		9F07D2962BDD341400F658AD /* DistanceMetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceMetricsView.swift; sourceTree = "<group>"; };
+		9F07D2982BDD341E00F658AD /* DistanceMetricsPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceMetricsPreview.swift; sourceTree = "<group>"; };
 		9FA881F82BC1508400DAB3D3 /* Yasta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yasta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FA881FB2BC1508400DAB3D3 /* YastaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YastaApp.swift; sourceTree = "<group>"; };
 		9FA881FD2BC1508400DAB3D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,7 +86,31 @@
 		9FA8821A2BC1508600DAB3D3 /* YastaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YastaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9FA8822B2BC1562C00DAB3D3 /* StepTrackerRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepTrackerRepository.swift; sourceTree = "<group>"; };
 		9FA8822D2BC1571700DAB3D3 /* StepTrackerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepTrackerViewModel.swift; sourceTree = "<group>"; };
-		9FA8822F2BC15AFF00DAB3D3 /* StepTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepTrackerView.swift; sourceTree = "<group>"; };
+		9FA8822F2BC15AFF00DAB3D3 /* MetricsTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsTrackerView.swift; sourceTree = "<group>"; };
+		9FB809572BCC676A007D34E0 /* StepsMetricsPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsMetricsPreview.swift; sourceTree = "<group>"; };
+		9FB809592BCC6A15007D34E0 /* StepsMetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsMetricsView.swift; sourceTree = "<group>"; };
+		9FB8095E2BCEC590007D34E0 /* Interval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interval.swift; sourceTree = "<group>"; };
+		9FB809602BCECB71007D34E0 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		9FCFA6FD2BC1CF5F00551061 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		9FCFA6FF2BC1D30500551061 /* Yasta.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Yasta.entitlements; sourceTree = "<group>"; };
+		9FCFA7012BC1D75600551061 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		9FCFA7032BC1D9F500551061 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		9FCFA7052BC1D9FD00551061 /* MapTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTrackerView.swift; sourceTree = "<group>"; };
+		9FCFA7072BC1DA0300551061 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9FCFA70B2BC1E01E00551061 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9FCFA70D2BC1E52400551061 /* LocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorage.swift; sourceTree = "<group>"; };
+		9FCFA7102BC1E8BD00551061 /* MockStepTrackerRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockStepTrackerRepository.swift; sourceTree = "<group>"; };
+		9FCFA7122BC1EA1E00551061 /* StepTrackerViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepTrackerViewModelTests.swift; sourceTree = "<group>"; };
+		9FCFA7182BC1F10A00551061 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		9FCFA71D2BC80FC800551061 /* Measure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Measure.swift; sourceTree = "<group>"; };
+		9FCFA71F2BC8113C00551061 /* WorkoutType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutType.swift; sourceTree = "<group>"; };
+		9FCFA7212BC8119300551061 /* Calorie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calorie.swift; sourceTree = "<group>"; };
+		9FCFA7242BC811CA00551061 /* StepTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepTracker.swift; sourceTree = "<group>"; };
+		9FCFA7262BC811D500551061 /* Metric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metric.swift; sourceTree = "<group>"; };
+		9FCFA7282BC8121000551061 /* Distance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Distance.swift; sourceTree = "<group>"; };
+		9FCFA72A2BC8124D00551061 /* Speed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speed.swift; sourceTree = "<group>"; };
+		9FCFA72C2BC8126200551061 /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
+		9FCFA72E2BC8127600551061 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +138,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F07D2892BDD2D2500F658AD /* Calories Metrics */ = {
+			isa = PBXGroup;
+			children = (
+				9F07D28A2BDD2D3300F658AD /* CaloriesMetricsView.swift */,
+				9F07D28C2BDD2D4200F658AD /* CaloriesMetricsPreview.swift */,
+			);
+			path = "Calories Metrics";
+			sourceTree = "<group>";
+		};
+		9F07D2902BDD303800F658AD /* Speed Metrics */ = {
+			isa = PBXGroup;
+			children = (
+				9F07D2912BDD304200F658AD /* SpeedMetricsView.swift */,
+				9F07D2932BDD304E00F658AD /* SpeedMetricsPreview.swift */,
+			);
+			path = "Speed Metrics";
+			sourceTree = "<group>";
+		};
+		9F07D2952BDD340900F658AD /* Distance Metrics */ = {
+			isa = PBXGroup;
+			children = (
+				9F07D2962BDD341400F658AD /* DistanceMetricsView.swift */,
+				9F07D2982BDD341E00F658AD /* DistanceMetricsPreview.swift */,
+			);
+			path = "Distance Metrics";
+			sourceTree = "<group>";
+		};
 		9FA881EF2BC1508400DAB3D3 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +188,9 @@
 		9FA881FA2BC1508400DAB3D3 /* Yasta */ = {
 			isa = PBXGroup;
 			children = (
+				9FCFA7232BC811C300551061 /* Protocols */,
+				9FCFA7002BC1D73A00551061 /* Reusables */,
+				9FCFA6FF2BC1D30500551061 /* Yasta.entitlements */,
 				9FA882312BC1619B00DAB3D3 /* Utils */,
 				9FA8822A2BC1561B00DAB3D3 /* Repositories */,
 				9FA882292BC154F400DAB3D3 /* Views */,
@@ -128,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				9FA8820E2BC1508600DAB3D3 /* YastaTests.swift */,
+				9FCFA7122BC1EA1E00551061 /* StepTrackerViewModelTests.swift */,
 			);
 			path = YastaTests;
 			sourceTree = "<group>";
@@ -144,6 +234,12 @@
 		9FA882272BC1549300DAB3D3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9FCFA7182BC1F10A00551061 /* Activity.swift */,
+				9FCFA7212BC8119300551061 /* Calorie.swift */,
+				9FCFA7282BC8121000551061 /* Distance.swift */,
+				9FCFA72A2BC8124D00551061 /* Speed.swift */,
+				9FCFA72C2BC8126200551061 /* Step.swift */,
+				9FCFA72E2BC8127600551061 /* Workout.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -159,7 +255,14 @@
 		9FA882292BC154F400DAB3D3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				9FA8822F2BC15AFF00DAB3D3 /* StepTrackerView.swift */,
+				9F07D2952BDD340900F658AD /* Distance Metrics */,
+				9F07D2902BDD303800F658AD /* Speed Metrics */,
+				9F07D2892BDD2D2500F658AD /* Calories Metrics */,
+				9FB809562BCC670B007D34E0 /* Steps Metrics */,
+				9FA8822F2BC15AFF00DAB3D3 /* MetricsTrackerView.swift */,
+				9FCFA7032BC1D9F500551061 /* StatisticsView.swift */,
+				9FCFA7052BC1D9FD00551061 /* MapTrackerView.swift */,
+				9FCFA7072BC1DA0300551061 /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -175,8 +278,58 @@
 		9FA882312BC1619B00DAB3D3 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				9FB8095D2BCEC57A007D34E0 /* Enums */,
+				9FCFA7142BC1EC3200551061 /* Mock */,
+				9FCFA70B2BC1E01E00551061 /* Extensions.swift */,
+				9FCFA6FD2BC1CF5F00551061 /* Errors.swift */,
+				9FCFA70D2BC1E52400551061 /* LocalStorage.swift */,
+				9FB809602BCECB71007D34E0 /* Globals.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		9FB809562BCC670B007D34E0 /* Steps Metrics */ = {
+			isa = PBXGroup;
+			children = (
+				9FB809572BCC676A007D34E0 /* StepsMetricsPreview.swift */,
+				9FB809592BCC6A15007D34E0 /* StepsMetricsView.swift */,
+			);
+			path = "Steps Metrics";
+			sourceTree = "<group>";
+		};
+		9FB8095D2BCEC57A007D34E0 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				9FCFA71D2BC80FC800551061 /* Measure.swift */,
+				9FCFA71F2BC8113C00551061 /* WorkoutType.swift */,
+				9FB8095E2BCEC590007D34E0 /* Interval.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		9FCFA7002BC1D73A00551061 /* Reusables */ = {
+			isa = PBXGroup;
+			children = (
+				9FCFA7012BC1D75600551061 /* CircularProgressView.swift */,
+			);
+			path = Reusables;
+			sourceTree = "<group>";
+		};
+		9FCFA7142BC1EC3200551061 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				9FCFA7102BC1E8BD00551061 /* MockStepTrackerRepository.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		9FCFA7232BC811C300551061 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				9FCFA7242BC811CA00551061 /* StepTracker.swift */,
+				9FCFA7262BC811D500551061 /* Metric.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,12 +462,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FCFA7192BC1F10A00551061 /* Activity.swift in Sources */,
+				9FCFA7202BC8113C00551061 /* WorkoutType.swift in Sources */,
+				9F07D28D2BDD2D4200F658AD /* CaloriesMetricsPreview.swift in Sources */,
+				9F07D2922BDD304200F658AD /* SpeedMetricsView.swift in Sources */,
 				9FA8822E2BC1571700DAB3D3 /* StepTrackerViewModel.swift in Sources */,
+				9FB809582BCC676A007D34E0 /* StepsMetricsPreview.swift in Sources */,
+				9FCFA72B2BC8124D00551061 /* Speed.swift in Sources */,
 				9FA881FE2BC1508400DAB3D3 /* ContentView.swift in Sources */,
+				9FCFA7022BC1D75600551061 /* CircularProgressView.swift in Sources */,
 				9FA882002BC1508400DAB3D3 /* Item.swift in Sources */,
+				9FCFA72D2BC8126200551061 /* Step.swift in Sources */,
+				9FCFA7172BC1EC5F00551061 /* MockStepTrackerRepository.swift in Sources */,
+				9FCFA7272BC811D500551061 /* Metric.swift in Sources */,
+				9FCFA7042BC1D9F500551061 /* StatisticsView.swift in Sources */,
+				9FB809612BCECB71007D34E0 /* Globals.swift in Sources */,
+				9F07D2992BDD341E00F658AD /* DistanceMetricsPreview.swift in Sources */,
+				9F07D2972BDD341400F658AD /* DistanceMetricsView.swift in Sources */,
+				9FCFA72F2BC8127600551061 /* Workout.swift in Sources */,
+				9FCFA7292BC8121000551061 /* Distance.swift in Sources */,
+				9F07D2942BDD304E00F658AD /* SpeedMetricsPreview.swift in Sources */,
 				9FA8822C2BC1562C00DAB3D3 /* StepTrackerRepository.swift in Sources */,
+				9F07D28B2BDD2D3300F658AD /* CaloriesMetricsView.swift in Sources */,
 				9FA881FC2BC1508400DAB3D3 /* YastaApp.swift in Sources */,
-				9FA882302BC15AFF00DAB3D3 /* StepTrackerView.swift in Sources */,
+				9FCFA70C2BC1E01E00551061 /* Extensions.swift in Sources */,
+				9FA882302BC15AFF00DAB3D3 /* MetricsTrackerView.swift in Sources */,
+				9FB8095A2BCC6A15007D34E0 /* StepsMetricsView.swift in Sources */,
+				9FCFA7062BC1D9FD00551061 /* MapTrackerView.swift in Sources */,
+				9FCFA70E2BC1E52400551061 /* LocalStorage.swift in Sources */,
+				9FCFA71E2BC80FC800551061 /* Measure.swift in Sources */,
+				9FCFA7222BC8119300551061 /* Calorie.swift in Sources */,
+				9FCFA7252BC811CA00551061 /* StepTracker.swift in Sources */,
+				9FCFA7082BC1DA0300551061 /* SettingsView.swift in Sources */,
+				9FB8095F2BCEC590007D34E0 /* Interval.swift in Sources */,
+				9FCFA6FE2BC1CF5F00551061 /* Errors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +503,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FCFA7132BC1EA1E00551061 /* StepTrackerViewModelTests.swift in Sources */,
 				9FA8820F2BC1508600DAB3D3 /* YastaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,6 +657,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Yasta/Yasta.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Yasta/Preview Content\"";
@@ -505,6 +688,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Yasta/Yasta.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Yasta/Preview Content\"";
@@ -537,6 +721,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8623GBZ82;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
@@ -556,6 +741,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8623GBZ82;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
@@ -574,6 +760,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8623GBZ82;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.antoniocranga.YastaUITests;
@@ -591,6 +778,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8623GBZ82;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.antoniocranga.YastaUITests;

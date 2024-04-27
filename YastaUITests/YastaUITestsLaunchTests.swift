@@ -30,3 +30,25 @@ final class YastaUITestsLaunchTests: XCTestCase {
         add(attachment)
     }
 }
+
+// MARK: Activity UI Tests
+
+extension YastaUITestsLaunchTests {
+    func testActivityLaunch() throws {
+        let app = XCUIApplication()
+        app.launch()
+        
+        let tabBar = app.tabBars.firstMatch
+        let activityTab = tabBar.buttons["Activity"]
+        XCTAssertTrue(activityTab.waitForExistence(timeout: 5))
+        activityTab.tap()
+        
+        let exists = NSPredicate(format: "exists == true")
+        let navigationTitle = app.staticTexts["Acitvity"]
+        let expectation = expectation(for: exists, evaluatedWith: navigationTitle, handler: nil)
+        let result = XCTWaiter.wait(for: [expectation], timeout: 5.0)
+        XCTAssertEqual(result, .completed, "The Activity title didn't appear within 5 seconds")
+        
+        XCTAssertTrue(navigationTitle.exists)
+    }
+}
